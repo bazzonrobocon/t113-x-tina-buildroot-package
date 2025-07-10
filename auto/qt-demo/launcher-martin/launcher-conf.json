@@ -1,0 +1,50 @@
+{
+    "mainIcon": "/etc/resources/applauncher.png",
+    "mainLabel": "ococci Application Launcher",
+    "path": [
+        "/usr/bin/",
+        "${APPLICATION_DIR_PATH}/../libexec"
+    ],
+    "res": [
+        "/usr/share/pixmaps"
+    ],
+    "env": {
+    },
+    "applications": [
+        {
+            "icon": "/etc/resources/icon/MediaUI.png",
+            "text": "MediaUI\nfly",
+            "exec": "MediaUI"
+        },
+        {
+            "icon": "/etc/resources/icon/backlight-icon.png",
+            "text": "test backlight ",
+            "exec": "fltest_qt_backlight"
+        },
+        {
+            "icon": "/etc/resources/icon/key-icon.png",
+            "text": "test key",
+            "exec": "test_qt_keypad"
+        },
+		{
+			"icon": "/etc/resources/icon/ping-icon.png",
+			"text": "test wlan\nping",
+			"exec": "test_qt_ping_test"
+		},
+		{
+			"icon": "/etc/resources/icon/opengl-icon.png",
+			"text": "test opengl",
+			"exec": "fltest_qt_qopenglwidget"
+		},
+		{
+			"icon": "/etc/resources/icon/watchdog-icon.png",
+			"text": "test watch",
+			"exec": "test_qt_watchdog"
+		},
+		{
+			"icon": "/etc/resources/icon/rtc-icon.png",
+			"text": "test rtc",
+			"exec": "test_qt_rtc"
+		}
+    ]
+}

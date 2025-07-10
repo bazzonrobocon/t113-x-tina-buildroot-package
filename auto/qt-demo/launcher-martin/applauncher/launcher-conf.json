@@ -1,0 +1,30 @@
+{
+    "mainIcon": "/etc/resources/icon/applauncher.png",
+    "mainLabel": "ococci Application Launcher",
+    "path": [
+        "/usr/bin/",
+        "${APPLICATION_DIR_PATH}/../libexec"
+    ],
+    "res": [
+        "/usr/share/pixmaps"
+    ],
+    "env": {
+    },
+    "applications": [
+        {
+            "icon": "/etc/resources/icon/key-icon.png",
+            "text": "test key",
+            "exec": "qt_test_keypad"
+        },
+		{
+			"icon": "/etc/resources/icon/watchdog-icon.png",
+			"text": "test watch",
+			"exec": "qt_test_watchdog"
+		},
+		{
+			"icon": "/etc/resources/icon/rtc-icon.png",
+			"text": "test rtc",
+			"exec": "qt_test_rtc"
+		}
+    ]
+}
